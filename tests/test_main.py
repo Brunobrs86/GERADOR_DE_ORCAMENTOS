@@ -5,8 +5,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../s
 import pytest
 from main import calcular_orcamento
 
-from src.main import calcular_orcamento
-
 # 1. Cenário de uso correto ("caminho feliz")
 def test_calcular_orcamento_sucesso():
     assert calcular_orcamento("Site", 100, 10) == 1000
