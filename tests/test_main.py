@@ -1,4 +1,10 @@
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+
 import pytest
+from main import calcular_orcamento
+
 from src.main import calcular_orcamento
 
 # 1. Cenário de uso correto ("caminho feliz")
